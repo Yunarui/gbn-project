@@ -1,0 +1,56 @@
+STUDENT ID: 1820232048
+EXE FILE NAME (required): 1820232048project1.exe
+(No Chinese characters in filename)
+
+================================================================================
+IMPORTANT: I cannot give you a Windows .exe file from a Mac chat.
+Your teacher wants a REAL Windows program. You must build it ONCE using
+one of the methods below. Takes about 10-15 minutes.
+
+================================================================================
+METHOD 1 - GITHUB (FREE DOWNLOAD) - BEST IF YOU ONLY HAVE MAC
+================================================================================
+1. Create free account: https://github.com
+2. Create new repository (e.g. gbn-project)
+3. Upload ALL files in this folder to the repo
+4. Open repo -> Actions tab -> "Build Windows EXE" -> Run workflow
+5. Wait ~2 minutes -> click the workflow run -> Artifacts
+6. Download: 1820232048project1-exe.zip
+7. Unzip -> you get 1820232048project1.exe
+
+================================================================================
+METHOD 2 - WINDOWS PC / SCHOOL LAB
+================================================================================
+1. Copy this folder to Windows
+2. Double-click: build_windows_exe.bat
+3. Get 1820232048project1.exe in the same folder
+
+================================================================================
+METHOD 3 - ASK TEACHER (if no Windows access)
+================================================================================
+Email: "I developed on macOS in Python. May I submit source code + README
+with instructions, or must I provide 1820232048project1.exe?"
+
+Most teachers who require .exe will NOT accept .py-only if they grade on Windows.
+
+================================================================================
+HOW TO RUN THE EXE (after you have it)
+================================================================================
+Put exe in project folder with config\ and files\ folders.
+
+CMD window 1: 1820232048project1.exe config\host2.ini
+CMD window 2: 1820232048project1.exe config\host1.ini
+
+================================================================================
+WHAT TO SUBMIT
+================================================================================
+1820232048project1.zip containing:
+  1820232048project1.exe
+  config\
+  src\
+  files\  (or instructions to create 3MB test files)
+  logs\   (sample from a test run)
+  README / HOW_TO_GET_EXE.txt
+  Report PDF + PPT (if required separately)
+
+Do NOT put venv\ in the zip.
